@@ -1,0 +1,27 @@
+@mixin TagA($color, $fsize) {
+    text-decoration: none;
+    color: $color;
+    font-size: $fsize;
+    @content;
+}
+
+@mixin ColorSize($size) {
+    color: white;
+    font-size: $size;
+}
+
+@mixin disPly($Fdir, $Fclm, $Fali, $Fwarp) {
+    display: flex;
+    flex-wrap: $Fwarp;
+    flex-direction: $Fdir;
+    justify-content: $Fclm;
+    align-content: $Fali;
+    @content;
+}
+
+@mixin wh($width, $height) {
+    width: $width;
+    height: $height;
+    @content;
+}
+

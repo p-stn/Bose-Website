@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.contner {
+  max-width: 1440px;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Header .Menue {
+  width: 1380px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header .Menue .menueT {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  height: 40px;
+}
+.Header .Menue .menueT > a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 7px 12px;
+  border-radius: 20px;
+  background-color: #202020;
+  transition: 0.4s;
+}
+.Header .Menue .menueT > a:hover {
+  background-color: white;
+  color: #202020;
+}
+.Header .Menue .menueT ul {
+  display: flex;
+}
+.Header .Menue .menueT ul li {
+  list-style-type: none;
+}
+.Header .Menue .menueT ul li a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.Header .Menue .menueT ul li a:hover {
+  border-bottom: 2px solid white;
+}
+.Header .HeaderPhoto {
+  background-image: url(../IMG/body.png);
+  width: 1440px;
+  height: 606px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.Header .HeaderPhoto .HPo {
+  width: 50%;
+  height: 400px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.Header .HeaderPhoto .HPo button {
+  width: 274px;
+  height: 61px;
+  font-size: 25px;
+  border-radius: 25px;
+  color: black;
+  border: none;
+  margin-top: 131px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Header .HeaderPhoto .THead {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-wrap: none;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.Body .sectionI {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-content: start;
+}
+.Body .sectionI .ITx {
+  width: 50%;
+  height: auto;
+  padding: 30px 0;
+  color: white;
+  font-size: none;
+  padding-left: 149px;
+}
+.Body .sectionI .ITx h2 {
+  font-size: 64px;
+  width: 543px;
+  height: 220px;
+  margin-top: 217px;
+}
+.Body .sectionI .ITx h3 {
+  font-size: 16px;
+  margin-top: 65px;
+}
+.Body .sectionI .ITx span {
+  color: white;
+  font-size: 36px;
+}
+.Body .sectionI .ITx a {
+  padding: 15px 50px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  margin: 60px 60px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.Body .sectionI .ITx .colorHedphone {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.Body .sectionI .ITx .colorHedphone div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.Body .sectionI .ITx .colorHedphone div:nth-child(1) {
+  background-color: rgb(195, 195, 70);
+}
+.Body .sectionI .ITx .colorHedphone div:nth-child(2) {
+  background-color: rgb(47, 47, 142);
+}
+.Body .sectionI .ITx .colorHedphone div:nth-child(3) {
+  background-color: darkblue;
+}
+.Body .sectionI .ITx .colorHedphone div:nth-child(4) {
+  background-color: rgb(133, 127, 127);
+}
+.Body .sectionI .ITx .colorHedphone div:nth-child(5) {
+  background-color: rgb(203, 68, 68);
+}
+.Body .sectionI .IPt {
+  width: 50%;
+  height: auto;
+  background-image: url(../IMG/Union.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.Body .sectionI .IPt:after {
+  content: url(../IMG/Union0.png);
+  position: relative;
+  right: -180px;
+}
+.Body .sectionI .IPt img {
+  position: absolute;
+  z-index: 100;
+  left: 700px;
+  top: 163px;
+}
+.Body .sectionI .IFt {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.Body .sectionI .IFt > h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  width: 100%;
+  margin-left: 70px;
+}
+.Body .sectionI .IFt .IPho {
+  width: 1260px;
+  height: 203px;
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.Body .sectionII .sII {
+  margin-top: 220px;
+  width: 100%;
+  height: 606px;
+  background-image: url(../IMG/but.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.Body .sectionII .sII .secIIT {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: none;
+  align-items: center;
+}
+.Body .sectionII .sII .secIIT h3 {
+  text-decoration: none;
+  color: white;
+  font-size: 38px;
+  width: 655px;
+  height: 221px;
+  line-height: 72px;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+.Body .sectionII .sII .secIIT h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+.Body .sectionII .sII .secIIT button {
+  width: 274px;
+  height: 61px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  color: black;
+  margin: 20px auto;
+}
+.Body .sectionII .sII .secIIP {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Body .sectionIII {
+  width: 100%;
+  height: 1250px;
+  padding-top: 57px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.Body .sectionIII:before {
+  content: url(../IMG/Union\(1\).png);
+  position: absolute;
+  left: 0;
+}
+.Body .sectionIII:after {
+  content: url(../IMG/Union\(2\).png);
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+.Body .sectionIII .hedtex {
+  text-align: center;
+  width: 852px;
+  height: 204px;
+}
+.Body .sectionIII .hedtex h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 64px;
+}
+.Body .sectionIII .hedtex p {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  width: 792px;
+  height: 120px;
+  line-height: 28px;
+}
+.Body .sectionIV {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Body .sectionIV .sevIV {
+  display: flex;
+}
+.Body .sectionIV .sevIV .TxIV {
+  width: 50%;
+  height: 300px;
+  margin-left: 106px;
+  margin-top: 100px;
+}
+.Body .sectionIV .sevIV .TxIV h2 {
+  font-size: 64px;
+  color: white;
+  width: 543px;
+  height: 136px;
+  line-height: 72px;
+}
+.Body .sectionIV .sevIV .TxIV p {
+  color: white;
+  font-size: 18px;
+  width: 558px;
+  height: 113px;
+  margin-top: 16px;
+  text-align: justify;
+}
+.Body .sectionIV .sevIV .ptoIV {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+.Body .sectionIIV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.Body .sectionIIV .products {
+  width: 1340px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.Body .sectionIIV .products h2 {
+  color: white;
+  font-size: 40px;
+}
+.Body .sectionIIV .products a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 12px 45px;
+  border-radius: 50px;
+}
+.Body .sectionIIV .model {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Body .sectionIIV .model div {
+  width: 230px;
+  height: 495px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.05);
+  transition: 1s;
+}
+.Body .sectionIIV .model div:hover {
+  box-shadow: 0 0 19px 5px #fff;
+}
+.Body .sectionIIV .model div img {
+  margin: 40px 0px;
+}
+.Body .sectionIIV .model div h2 {
+  color: black;
+  font-size: 24px;
+  width: 178px;
+  height: auto;
+}
+.Body .sectionIIV .model div h5 {
+  font-size: 20px;
+  opacity: 0.3;
+  margin-top: 17px;
+  width: 178px;
+  justify-content: end;
+}
+.Body .sectionIIV .logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Body .sectionIIV .logo .mlogo {
+  margin-top: 190px;
+}
+.Body .sectionIIV .logo h3 {
+  margin-top: 44px;
+  color: white;
+  font-size: 26px;
+}
+.Body .sectionIIV .logo .btnmore {
+  margin-top: 25px;
+  padding: 15px 60px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.Footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.Footer .fae {
+  margin: 78px 0px;
+  width: 100%;
+  height: 154px;
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer .fae ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Footer .fae ul li {
+  padding: 50px;
+  list-style-type: none;
+  transition: 1s;
+  position: relative;
+  top: 0;
+}
+.Footer .fae ul li:hover {
+  top: -30px;
+}
+.Footer .foter {
+  display: flex;
+}
+.Footer .foter .fyto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  position: relative;
+}
+.Footer .foter .fyto h3 {
+  width: 441px;
+  height: 195px;
+  color: white;
+  font-size: 35px;
+  line-height: 65px;
+}
+.Footer .foter .fyto img {
+  position: absolute;
+  left: 67px;
+  top: 380px;
+}
+.Footer .foter .fyyto {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.Footer .foter .fyyto ul li {
+  list-style-type: none;
+  line-height: 50px;
+  color: #C5C5C5;
+}
+
+/*# sourceMappingURL=master.css.map */
